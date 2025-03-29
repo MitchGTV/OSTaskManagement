@@ -1,7 +1,7 @@
 <div class="bg-white sticky-top landing-navbar" data-navbar-shadow-on-scroll="data-navbar-shadow-on-scroll">
     <nav class="navbar navbar-expand-lg container-small px-3 px-lg-7 px-xxl-3"><a class="navbar-brand flex-1 flex-lg-grow-0" href="../../index.html">
             <div class="d-flex align-items-center"><img src="../../assets/img/icons/logo.png" alt="phoenix" width="27" />
-                <p class="logo-text ms-2">OS Task Management</p>
+                <p class="logo-text ms-2">OSTaskManagement</p>
             </div>
         </a>
         <div class="d-lg-none">
