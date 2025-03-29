@@ -60,7 +60,13 @@
 <!--    Main Content-->
 <!-- ===============================================-->
 
-@yield('content')
+<main style="--phoenix-scroll-margin-top: 1.2rem;">
+
+    @include('layouts.navigation')
+
+    @yield('content')
+
+</main>
 
 <!-- ===============================================-->
 <!--    End of Main Content-->
@@ -83,7 +89,12 @@
 <script src="{{ asset('assets/js/phoenix.js') }}"></script>
 
 <!-- Merged Additional Scripts -->
-
+<script src="{{ asset('vendors/isotope-layout/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('vendors/isotope-packery/packery-mode.pkgd.min.js') }}"></script>
+<script src="{{ asset('vendors/bigpicture/BigPicture.js') }}"></script>
+<script src="{{ asset('vendors/countup/countUp.umd.js') }}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARdVcREeBK44lIWnv5-iPijKqvlSAVwbw&amp;callback=initMap" async></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
 
