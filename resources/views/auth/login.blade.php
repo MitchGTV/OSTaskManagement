@@ -6,9 +6,7 @@
         <div class="container-fluid px-0" data-layout="container">
             <div class="container">
                 <div class="row flex-center min-vh-100 py-5">
-                    <div class="col-sm-10 col-md-8 col-lg-5 col-xl-5 col-xxl-3"><a class="d-flex flex-center text-decoration-none mb-4" href="../../../index.html">
-                            <div class="d-flex align-items-center fw-bolder fs-5 d-inline-block"><img src="../../../assets/img/icons/logo.png" alt="phoenix" width="58" /></div>
-                        </a>
+                    <div class="col-sm-10 col-md-8 col-lg-5 col-xl-5 col-xxl-3">
                         <div class="text-center mb-7">
                             <h3 class="text-1000">Sign In</h3>
                             <p class="text-700">Get access to your account</p>
