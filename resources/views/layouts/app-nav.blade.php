@@ -6,7 +6,7 @@
                 <li class="nav-item">
                     <!-- parent pages-->
                     <div class="nav-item-wrapper">
-                        <a class="nav-link active label-1" href="{{ route('dashboard') }}" role="button" data-bs-toggle="" aria-expanded="false">
+                        <a class="nav-link {{ Route::is('dashboard') ? 'active' : '' }} label-1" href="{{ route('dashboard') }}" role="button" data-bs-toggle="" aria-expanded="false">
                             <div class="d-flex align-items-center">
                                 <span class="nav-link-icon">
                                     <span data-feather="compass"></span>
@@ -17,7 +17,19 @@
                             </div>
                         </a>
                     </div>
-
+                    <!-- parent pages-->
+                    <div class="nav-item-wrapper">
+                        <a class="nav-link {{ Route::is('tasks.list') ? 'active' : '' }} label-1" href="{{ route('tasks.list') }}" role="button" data-bs-toggle="" aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <span class="nav-link-icon">
+                                    <span data-feather="list"></span>
+                                </span>
+                                <span class="nav-link-text-wrapper">
+                                    <span class="nav-link-text">Tasks</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
                 </li>
             </ul>
         </div>
