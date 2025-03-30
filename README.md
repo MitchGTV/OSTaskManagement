@@ -2,6 +2,8 @@
 
 Open Source Task Management reffered to as OSTaskManagement is an open source task management system built on Laravel 12 using the Phoenix Admin Panel Theme from Bootstrap Themes. This was built purely to improve my programming skills, there is no intended usage or support. This is for demonstration purposes only for my public portfolio as a novice web developer. 
 
+## Built with Laravel 12
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
