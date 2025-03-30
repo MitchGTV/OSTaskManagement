@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="ltr">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
     <title>{{ config('app.name', 'OS Task Management') }}</title>
-
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
@@ -25,7 +22,6 @@
     <script src="{{ asset('vendors/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
     <script src="{{ asset('vendors/simplebar/simplebar.min.js') }}"></script>
     <script src="{{ asset('assets/js/config.js') }}"></script>
-
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
@@ -54,19 +50,14 @@
         }
     </script>
 </head>
-
 <body>
 <!-- ===============================================-->
 <!--    Main Content-->
 <!-- ===============================================-->
-
 @yield('content')
-
 <!-- ===============================================-->
 <!--    End of Main Content-->
 <!-- ===============================================-->
-
-
 <!-- ===============================================-->
 <!--    JavaScripts-->
 <!-- ===============================================-->
@@ -81,10 +72,6 @@
 <script src="{{ asset('vendors/feather-icons/feather.min.js') }}"></script>
 <script src="{{ asset('vendors/dayjs/dayjs.min.js') }}"></script>
 <script src="{{ asset('assets/js/phoenix.js') }}"></script>
-
 <!-- Merged Additional Scripts -->
-
-
 </body>
-
 </html>
